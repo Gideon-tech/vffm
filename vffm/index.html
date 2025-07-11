@@ -50,9 +50,6 @@
                      <a class="nav-link" href="about.html">About</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="donate.html">Team</a>
-                  </li>
-                  <li class="nav-item">
                      <a class="nav-link" href="news.html">News</a>
                   </li>
                   <li class="nav-item">
@@ -384,50 +381,167 @@ Victory Faith Foundation Ministries (VFFM) is a charity NGO based in Lugazi Name
       </div>
       <!-- events section end -->
       <!-- donate section start -->
-      <div class="donate_section layout_padding">
+      <!-- team section start -->
+      <div class="team_section layout_padding">
          <div class="container">
-            <h1 class="donate_taital">MEET OUR TEAM</h1>
-            <div class="donate_taital_main">
-               <div id="main_slider" class="carousel slide" data-ride="carousel">
-                  <div class="carousel-inner">
-                     <div class="carousel-item active">
-                        <div class="donate_left">
-                           <div class="client_img"><img src="images/"></div>
+            <h1 class="team_taital">MEET OUR TEAM</h1>
+            <p class="team_text">Our dedicated team works tirelessly to fulfill our mission and serve the community with faith and compassion.</p>
+            
+            <div class="team_members">
+               <div class="row">
+                  <!-- Team Member 1 -->
+                  <div class="col-md-4">
+                     <div class="team_member">
+                        <div class="member_img">
+                           <img src="images/tiondi.jpg" alt="Bishop Tiondi Charles">
                         </div>
-                        <div class="donate_right">
-                           <h3 class="client_name_text">BISHOP TIONDI CHARLES DOMINIC - DIRECTOR</h3>
-                           <p class="dummy_text">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedIf you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined</p>
-                        </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="donate_left">
-                           <div class="client_img"><img src="images/"></div>
-                        </div>
-                        <div class="donate_right">
-                           <h3 class="client_name_text">TAMMIE WALKER - DIRECTOR</h3>
-                           <p class="dummy_text">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedIf you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined</p>
-                        </div>
-                     </div>
-                     <div class="carousel-item">
-                        <div class="donate_left">
-                           <div class="client_img"><img src="images/"></div>
-                        </div>
-                        <div class="donate_right">
-                           <h3 class="client_name_text">TIONDI BABRA</h3>
-                           <p class="dummy_text">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefinedIf you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined</p>
+                        <div class="member_info">
+                           <h3>Bishop Tiondi Charles Dominic</h3>
+                           <p class="member_title">Director</p>
+                           <p class="member_desc">Bishop Tiondi Charles provides spiritual leadership and strategic direction for Victory Faith Foundation Ministries. With over 15 years of ministry experience, he is passionate about community transformation through faith and education.</p>
                         </div>
                      </div>
                   </div>
-                  <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-                  <i class="fa fa-angle-right"></i>
-                  </a>
-                  <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-                  <i class="fa fa-angle-left"></i>
-                  </a>
+                  
+                  <!-- Team Member 2 -->
+                  <div class="col-md-4">
+                     <div class="team_member">
+                        <div class="member_img">
+                           <img src="images/tammie.png" alt="Tammie Walker">
+                        </div>
+                        <div class="member_info">
+                           <h3>Tammie Walker</h3>
+                           <p class="member_title">Director</p>
+                           <p class="member_desc">Tammie Walker brings extensive experience in nonprofit management and community development. She oversees the daily operations and ensures that our programs align with our mission and values.</p>
+                        </div>
+                     </div>
+                  </div>
+                  
+                  <!-- Team Member 3 -->
+                  <div class="col-md-4">
+                     <div class="team_member">
+                        <div class="member_img">
+                           <img src="images/gideon.jpg" alt="Maku Gideon">
+                        </div>
+                        <div class="member_info">
+                           <h3>Maku Gideon</h3>
+                           <p class="member_title">IT Support</p>
+                           <p class="member_desc">Maku Gideon provides technical support and assistance for our IT infrastructure, ensuring smooth operations and effective delivery of our services. His dedication to education and community service has been instrumental in our growth.</p>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
       </div>
+      <style>
+         .team_section {
+            padding: 90px 0;
+            background-color: #f8f9fa;
+         }
+         .team_taital {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 700;
+            color: #1e1e1e;
+            margin-bottom: 15px;
+         }
+         .team_text {
+            text-align: center;
+            color: #6c6c6c;
+            margin-bottom: 50px;
+            font-size: 16px;
+         }
+         .team_member {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+         }
+         .team_member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+         }
+         .member_img {
+            width: 100%;
+            height: 300px; 
+            overflow: hidden;
+            position: relative;
+            background: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+         }
+         .member_img img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; 
+            transition: all 0.5s ease;
+            padding: 15px; 
+            max-height: 100%;
+            max-width: 100%;
+         }
+         .team_member:hover .member_img img {
+            transform: scale(1.03);
+            opacity: 0.9;
+         }
+         .member_info {
+            padding: 25px;
+            text-align: center;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            background: #fff;
+            border-top: 1px solid #f0f0f0;
+         }   
+         .member_info h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1e1e1e;
+            margin-bottom: 5px;
+         }
+         .member_title {
+            color: #f26522;
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            display: block;
+         }
+         .member_desc {
+            color: #6c6c6c;
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 0;
+         }
+         @media (max-width: 991px) {
+            .team_taital {
+               font-size: 32px;
+            }
+            .team_member {
+               margin-bottom: 30px;
+            }
+            .member_img {
+               height: 250px;
+            }
+         }
+         @media (max-width: 767px) {
+            .team_taital {
+               font-size: 28px;
+            }
+            .team_text {
+               font-size: 15px;
+            }
+            .member_img {
+               height: 220px;
+            }
+         }
+      </style>
+      <!-- team section end -->
       <!-- donate section end -->
       <!-- footer section start -->
       <div class="footer_section layout_padding">
@@ -486,7 +600,7 @@ Victory Faith Foundation Ministries (VFFM) is a charity NGO based in Lugazi Name
                   <div class="col-sm-8 col-md-8 col-lg-9">
                      <input type="text" class="address_text" placeholder="Enter your Enail" name="text">
                      <button type="button" class="get_bt">SUBSCRIBE</button>
-                  </div>
+                  </input>
                </div>
             </div>
          </div>
