@@ -239,8 +239,21 @@ button {
     margin-right: 0px;
 }
 
+/* Logo size control */
+.navbar-brand img {
+    max-height: 25px; /* reduced height for smaller logo */
+    max-width: 80px;  /* reduced width */
+    width: auto;
+}
+
+.footer_logo img {
+    max-height: 80px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
 .navbar {
-    padding: 0px 25px 0px 25px;
+    padding: 0px 10px 0px 0px; /* tighter right padding so menu items sit closer */
 }
 
 .mr-auto,
